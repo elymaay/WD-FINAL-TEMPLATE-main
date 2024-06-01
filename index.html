@@ -1,39 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Seatwork 2</title>
-<link rel="stylesheet" href="./assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fokrul Bhuiyan - Graphic Designer</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-/*header>nav>(button*2>p)+h1+(button*2>p)*/
-<header>
-<nav>
-<button>
-<p>Education</p>
-</button>
-<button>
-<p>Projects</p>
-</button>
-<h1>Kiesha Conde</h1>
-<button>
-<p>Skills</p>
-</button>
-<button>
-<p>Hobbies</p>
-</button>
-</nav>
-</header>
+    <header>
+        <nav>
+            <div class="logo">F.B.</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro" id="home">
+            <div class="intro-text">
+                <h1>Hi, I'm Fokrul Bhuiyan |</h1>
+                <p>Creative & Professional</p>
+                <p>Graphics Designer |</p>
+                <a href="#contact" class="hire-me">Hire Me</a>
+            </div>
+            <div class="intro-image">
+                <img src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?cs=srgb&dl=pexels-andrewpersonaltraining-697509.jpg&fm=jpg" alt="Fokrul Bhuiyan">
+            </div>
+        </section>
+        
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="Fokrul Bhuiyan">
+            </p>Hi, I'm Fokrul Bhuiyan, a creative and professional graphics designer.I specialize in graphic design, photography, and web design.</p>
+                    <a href="#contact" class="read-more">Read More</a>
+                </div>
+            </div>
+        </section>
 
-<section class="hero">
-<img src="" alt="">
-<div class="content">
-<h3>Top 10 Student of FEU TECH</h3>
-<h2>Kiesha Conde</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, similique dolore doloribus ratione voluptate velit quia quidem odio dolores, architecto pariatur nobis voluptates dicta debitis!</p>
-<button>My Resume</button>
-</div>
-</section>
+        <section class="services" id="services">
+            <h2>Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <i class="icon">🖌️</i>
+                    <h3>Graphic Design</h3>
+                </div>
+                <div class="service-card">
+                    <i class="icon">📷</i>
+                    <h3>Photography</h3>
+                </div>
+                <div class="service-card">
+                    <i class="icon">💻</i>
+                    <h3>Web Design</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-works" id="work">
+            <h2>Featured Works</h2>
+            <div class="work-categories">
+                <button>All</button>
+                <button>Design</button>
+                <button>Photography</button>
+                <button>Website</button>
+            </div>
+            <div class="work-gallery">
+                <div class="work-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXBK8udOZwjiDqsBaYi7MJmG0vN9tHwdieQQ&s" alt="Work"></div>
+                <div class="work-item"><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Is_Graphic_Design_A_Good_Career.jpg" alt="Work"></div>
+                <div class="work-item"><img src="https://www.oneeducation.org.uk/wp-content/uploads/2020/06/01.-Diploma-in-Graphic-Design-1-460x276.jpg" alt="Work"></div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog">
+            <h2>Blog Post</h2>
+            <div class="blog-post">
+                <blockquote>
+                    "I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born."
+                    <cite>— JOHN LERK, Product Designer</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Type your message here"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Address: Bangladesh, dhaka</p>
+                <p>Phone: +880 123 456789</p>
+                <p>Email: myemail@example.com</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <a href="#">Web design</a>
+                <a href="#">Graphic Design</a>
+                <a href="#">Photography</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-social">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Behance</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p>&copy; 2024 Fokrul Bhuiyan. All Rights Reserved.</p>
+        </footer>
+    </main>
 </body>
 </html>
